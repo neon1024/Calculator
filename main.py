@@ -1,4 +1,3 @@
-from domain.Calculator import Calculator
 from repository.CalculatorMemoryRepository import CalculatorMemoryRepository
 from business.CalculatorService import CalculatorService
 from presentation.Console import Console

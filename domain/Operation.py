@@ -12,6 +12,7 @@ class Operation:
         for index in range(1, len(self.__operands)):
             operation += " "
             operation += f"{self.__operation}"
+            operation += " "
             operation += f"{self.__operands[index]}"
 
         return operation

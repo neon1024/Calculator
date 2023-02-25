@@ -26,7 +26,7 @@ class Console:
         result = 0
 
         for operand in operands:
-            result += int(operand)
+            result += float(operand)
 
         print(f"> {result}")
 
@@ -34,9 +34,9 @@ class Console:
         result = 0
 
         for operand in operands:
-            result -= operand
+            result -= float(operand)
 
-        result += operands[0]*2
+        result += float(operands[0])*2
 
         print(f"> {result}")
 
@@ -44,7 +44,7 @@ class Console:
         result = 1
 
         for operand in operands:
-            result *= operand
+            result *= float(operand)
 
         print(f"> {result}")
 
@@ -52,7 +52,7 @@ class Console:
         result = operands[0]
 
         for _ in range(1, len(operands)):
-            result /= operands[0]
+            result /= float(operands[0])
 
         print(f"> {result}")
 
@@ -60,7 +60,7 @@ class Console:
         result = operands[0]
 
         for _ in range(1, len(operands)):
-            result %= operands[0]
+            result %= float(operands[0])
 
         print(f"> {result}")
 
