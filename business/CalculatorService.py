@@ -1,3 +1,3 @@
 class CalculatorService:
-    def __init__(self, CalculatorRepository: object):
+    def __init__(self, CalculatorRepository):
         self.__CalculatorRepository = CalculatorRepository
